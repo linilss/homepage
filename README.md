@@ -3,6 +3,7 @@
 ## To run app, go to homepage/ folder and run
 
 ``` 
+npm install
 npm start 
 ```
 
@@ -10,5 +11,6 @@ npm start
 
 
 ``` 
+npm install
 npm start 
 ```
