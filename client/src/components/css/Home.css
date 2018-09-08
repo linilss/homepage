@@ -1,0 +1,25 @@
+*{
+}
+#wrapper { }
+.room{
+    min-height: 100vh;
+    width: 100%;
+}
+.salmon {
+    background: Salmon;
+    color: DarkTurquoise;
+}
+.purple {
+    background: Indigo;
+    color: SpringGreen;
+}
+.tan {
+    background: Tan;
+    color: SaddleBrown;
+}
+.room-header {
+    font-size: 54px;
+}
+.room-par {
+    font-size: 24px;
+}

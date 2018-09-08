@@ -9,6 +9,7 @@ import Home from './Home'
 // when the pathname is exactly the string "/"
 const Main = () => (
         <main>
+        <div id="navbar">asd</div>
         <Switch>
         <Route exact path='/' component={Home}/>
         </Switch>

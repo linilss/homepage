@@ -26,3 +26,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+#navbar {
+    position:fixed;
+    height:40px;
+    width: 100%;
+    background: black;
+    color:white;
+    font-size:32px;
+}
