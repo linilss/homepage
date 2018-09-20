@@ -26,11 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.navbar-wrapper {
+  z-index: 1;
+  padding: auto 0;
+  position:fixed;
+  height:6vh;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.7);
+  color:#FFFFFF;
+  font-size:32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #navbar {
-    position:fixed;
-    height:40px;
-    width: 100%;
-    background: black;
-    color:white;
-    font-size:32px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  width: 60%;
+  display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+#navbar>div:hover {
+  cursor: pointer;
+  background-color: rgba(50,50,50, 0.9);
+}
+.navbar-item {
+  width: 4em;
 }
